@@ -14,7 +14,7 @@ You should use this utility function when you have a form with validation, and y
 
 1. Install the package using npm:
 
-    ```npm install @arslan/mark-invalid-form-controls```
+    ```npm install @arslanameer/mark-invalid-form-controls```
 
 2. Import the markInvalidFormControls function in your component:
     
