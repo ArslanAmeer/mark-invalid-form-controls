@@ -1,6 +1,10 @@
+<p align="center" float="left">
+     <img src="./angular-reactive-forms.png" alt="angular-reactive-form" width="80">
+</p>
+
 # Angular Mark Invalid Form Controls Utility
 
-The markInvalidFormControls function is a utility function for Angular applications that helps you mark all invalid form controls as dirty and scrolls smoothly to the first invalid control. This utility is useful for providing better user experience in forms with validation, making it easier for users to identify and correct the invalid inputs.
+The markInvalidFormControls function is a utility function for Angular applications to be used with Reactive Forms that helps you mark all invalid form controls as dirty and scrolls smoothly to the first invalid control. This utility is useful for providing better user experience in forms with validation, making it easier for users to identify and correct the invalid inputs.
 
 ## Why use this utility?
 
@@ -19,7 +23,7 @@ You should use this utility function when you have a form with validation, and y
 2. Import the markInvalidFormControls function in your component:
     
     ```typescript 
-    import { markInvalidFormControls } from '@arslan/mark-invalid-form-controls';
+    import { markInvalidFormControls } from '@arslanameer/mark-invalid-form-controls';
     ```
 3. Use the markInvalidFormControls function in your component, typically in the submit event handler:
 
