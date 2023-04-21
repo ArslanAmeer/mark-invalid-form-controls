@@ -1,11 +1,11 @@
 {
   "name": "@arslanameer/mark-invalid-form-controls",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Mark all invalid reactive form controls and scroll to first invalid control",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
-  },  
+  },
   "keywords": [
     "angular",
     "reactive",
@@ -21,8 +21,16 @@
   "peerDependencies": {
     "@angular/core": "^15.2.7",
     "@angular/forms": "^15.2.7"
-  },  
+  },
   "devDependencies": {
     "typescript": "^5.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArslanAmeer/mark-invalid-form-controls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArslanAmeer/mark-invalid-form-controls/issues"
+  },
+  "homepage": "https://github.com/ArslanAmeer/mark-invalid-form-controls#readme"
 }
