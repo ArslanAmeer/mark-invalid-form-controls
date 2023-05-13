@@ -18,12 +18,12 @@ You should use this utility function when you have a form with validation, and y
 
 1. Install the package using npm:
 
-    ```npm install @arslanameer/mark-invalid-form-controls```
+    ```npm install mark-invalid-form-controls```
 
 2. Import the markInvalidFormControls function in your component:
     
     ```typescript 
-    import { markInvalidFormControls } from '@arslanameer/mark-invalid-form-controls';
+    import { markInvalidFormControls } from 'mark-invalid-form-controls';
     ```
 3. Use the markInvalidFormControls function in your component, typically in the submit event handler:
 
