@@ -19,8 +19,8 @@
   "author": "Arslan Ameer",
   "license": "ISC",
   "peerDependencies": {
-    "@angular/core": "^15.2.7",
-    "@angular/forms": "^15.2.7"
+    "@angular/core": "^15.2.9",
+    "@angular/forms": "^15.2.9"
   },
   "devDependencies": {
     "typescript": "^5.0.4"

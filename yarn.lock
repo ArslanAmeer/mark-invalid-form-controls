@@ -2,7 +2,54 @@
 # yarn lockfile v1
 
 
+"@angular/common@15.2.9":
+  version "15.2.9"
+  resolved "https://registry.npmjs.org/@angular/common/-/common-15.2.9.tgz"
+  integrity sha512-LM9/UHG2dRrOzlu2KovrFwWIziFMjRxHzSP3Igw6Symw/wIl0kXGq8Fn6RpFP78zmLqnv+IQOoRiby9MCXsI4g==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/core@^15.2.9", "@angular/core@15.2.9":
+  version "15.2.9"
+  resolved "https://registry.npmjs.org/@angular/core/-/core-15.2.9.tgz"
+  integrity sha512-w46Z1yUXCQfKV7XfnamOoLA2VD0MVUUYVrUjO73mHSskDXSXxfZAEHO9kfUS71Cj35PvhP3mbkqWscpea2WeYg==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/forms@^15.2.9":
+  version "15.2.9"
+  resolved "https://registry.npmjs.org/@angular/forms/-/forms-15.2.9.tgz"
+  integrity sha512-sk0pC2EFi2Ohg5J0q0NYptbT+2WOkoiERSMYA39ncDvlSZBWsNlxpkbGUSck7NIxjK2QfcVN1ldGbHlZTFvtqg==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/platform-browser@15.2.9":
+  version "15.2.9"
+  resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-15.2.9.tgz"
+  integrity sha512-ufCHeSX+U6d43YOMkn3igwfqtlozoCXADcbyfUEG8m2y9XASobqmCKvdSk/zfl62oyiA8msntWBJVBE2l4xKXg==
+  dependencies:
+    tslib "^2.3.0"
+
+"rxjs@^6.5.3 || ^7.4.0":
+  version "7.8.0"
+  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.0.tgz"
+  integrity sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==
+  dependencies:
+    tslib "^2.1.0"
+
+tslib@^2.1.0, tslib@^2.3.0:
+  version "2.5.0"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz"
+  integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
+
 typescript@^5.0.4:
   version "5.0.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz"
   integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
+
+"zone.js@~0.11.4 || ~0.12.0 || ~0.13.0":
+  version "0.13.0"
+  resolved "https://registry.npmjs.org/zone.js/-/zone.js-0.13.0.tgz"
+  integrity sha512-7m3hNNyswsdoDobCkYNAy5WiUulkMd3+fWaGT9ij6iq3Zr/IwJo4RMCYPSDjT+r7tnPErmY9sZpKhWQ8S5k6XQ==
+  dependencies:
+    tslib "^2.3.0"
