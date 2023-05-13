@@ -5,22 +5,23 @@
  * refElement is required to scroll to the first invalid control. You can pass the ref element by invoking `private el: ElementRef` in
  * the constructor of the component and then pass `this.el` to function as a second parameter.
  */
-
-import { AbstractControl, FormArray, FormControl, FormGroup } from '@angular/forms';
+import { AbstractControl, FormArray, FormControl, FormGroup, UntypedFormArray, UntypedFormControl, UntypedFormGroup } from '@angular/forms';
 import { ElementRef } from '@angular/core';
 
-export function markInvalidFormControls(control: AbstractControl, elRef: ElementRef): void {
-  if (control instanceof FormGroup) {
+export function markInvalidFormControls<T extends AbstractControl>(control: T, elRef: ElementRef): void {
+  if (control instanceof FormGroup || control instanceof UntypedFormGroup) {
     markFormGroupAsDirty(control);
-  } else if (control instanceof FormArray) {
+  } else if (control instanceof FormArray || control instanceof UntypedFormArray) {
     markFormArrayAsDirty(control);
-  } else if (control instanceof FormControl) {
+  } else if (control instanceof FormControl || control instanceof UntypedFormControl) {
     markFormControlAsDirty(control);
   } else {
-    throw new Error('Error: unexpected control value');
+    throw new Error('Error: unexpected control value, it must be an instance of FormGroup, FormArray or FormControl');
   }
   scrollToFirstInvalidControl(elRef);
 }
+
+
 
 function markFormGroupAsDirty(formGroup: FormGroup): void {
   formGroup.markAllAsTouched();
